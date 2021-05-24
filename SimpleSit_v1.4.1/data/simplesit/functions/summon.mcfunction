@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ air run summon pig ~0.5 ~-0.85 ~0.5 {Tags:[seat], Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Saddle:1,ActiveEffects:[{Ambient:0b,Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}], Team:simplesit}
+execute unless block ~ ~ ~ air run summon pig ~0.5 ~-0.3 ~0.5 {Tags:[seat], Invulnerable:1,PersistenceRequired:1,Silent:1,NoAI:1,Saddle:1,ActiveEffects:[{Ambient:0b,Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}], Team:simplesit}
