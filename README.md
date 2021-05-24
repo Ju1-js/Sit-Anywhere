@@ -12,3 +12,9 @@ Just unzip the archive in your datapack folder.
 ✅ Works in both singleplayer and multiplayer worlds.
 
 ✅ Carefully coded to prevent conflicts with other datapacks/mods.
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
