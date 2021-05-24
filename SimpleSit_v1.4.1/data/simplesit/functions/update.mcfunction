@@ -16,6 +16,7 @@ execute as @e[tag=seat] at @s rotated as @p run tp @s ~ ~ ~ ~ ~
 
 function simplesit:enabler
 
-scoreboard players add @a c200 1
-execute as @a at @s if score @s c200 matches 200.. if score @s SimpleLay matches 1.. run tellraw @s {"text":"Press Sneak To Stand Up","color":"yellow"}
-execute as @a at @s if score @s c200 matches 200.. if score @s SimpleLay matches 1.. run scoreboard players reset @s c200
+scoreboard players add @a c600 1
+#execute as @a at @s if score @s c600 matches 200.. if score @s SimpleLay matches 1.. run tellraw @s {"text":"Press Sneak To Stand Up","color":"yellow"}
+execute as @a at @s if score @s c600 matches 200.. if score @s SimpleLay matches 1.. run title @s actionbar {"text":"Press Sneak To Stand Up","color":"yellow"}
+execute as @a at @s if score @s c600 matches 200.. if score @s SimpleLay matches 1.. run scoreboard players reset @s c600
