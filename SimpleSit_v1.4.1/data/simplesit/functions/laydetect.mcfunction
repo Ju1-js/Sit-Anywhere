@@ -4,6 +4,9 @@ execute as @a at @s run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:air replace minecraf
 #execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ air run function simplesit:lay
 #####################
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ air run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ cave_air run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ void_air run function simplesit:lay
+
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ oak_sapling run function simplesit:lay
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_sapling run function simplesit:lay
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_sapling run function simplesit:lay
@@ -146,6 +149,158 @@ execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ zombie_wall
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ player_wall_head run function simplesit:lay
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ creeper_wall_head run function simplesit:lay
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dragon_wall_head run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ sea_pickle run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ tube_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brain_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ bubble_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ fire_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ horn_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_tube_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_brain_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_bubble_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_fire_coral run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_horn_coral run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ cobweb run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ white_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ orange_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ magenta_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_blue_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ yellow_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ lime_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ pink_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ gray_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_gray_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ cyan_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ purple_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ blue_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brown_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ green_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ red_carpet run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ black_carpet run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ snow run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ end_gateway run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ end_portal run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ nether_portal run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ structure_void run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ ladder run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ scaffolding run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_weighted_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ heavy_weighted_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ stone_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ stone_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ stone_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ jungle_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ acacia_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dark_oak_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ crimson_pressure_plate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ warped_pressure_plate run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ daylight_detector run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ iron_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ oak_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ jungle_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ acacia_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dark_oak_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ crimson_trapdoor run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ warped_trapdoor run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ oak_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ jungle_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ acacia_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dark_oak_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ crimson_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ warped_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ oak_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ jungle_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ acacia_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dark_oak_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ crimson_wall_sign run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ warped_wall_sign run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ oak_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ spruce_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ birch_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ jungle_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ acacia_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dark_oak_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ crimson_fence_gate run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ warped_fence_gate run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ tube_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brain_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ bubble_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ fire_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ horn_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_tube_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_brain_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_bubble_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_fire_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_horn_coral_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ tube_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brain_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ bubble_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ fire_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ horn_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_tube_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_brain_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_bubble_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_fire_coral_wall_fan run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ dead_horn_coral_wall_fan run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ white_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ orange_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ magenta_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_blue_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ yellow_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ lime_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ pink_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ gray_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_gray_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ cyan_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ purple_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brown_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ green_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ red_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ black_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ white_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ orange_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ magenta_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_blue_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ yellow_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ lime_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ pink_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ gray_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ light_gray_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ cyan_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ purple_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ brown_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ green_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ red_wall_banner run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ black_wall_banner run function simplesit:lay
+
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ lantern run function simplesit:lay
+execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ soul_lantern run function simplesit:lay
 #####################
 execute as @a at @s if score @s simplesneak matches 1.. run scoreboard players set @s SimpleLay 0
 execute as @a at @s if score @s simplesneak matches 1.. run scoreboard players set @s simplesneak 0
