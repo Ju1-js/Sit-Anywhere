@@ -1,5 +1,3 @@
-execute as @a at @s run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 minecraft:air replace minecraft:barrier
-
 #execute as @a at @s if score @s SimpleLay matches 1.. if block ~ ~ ~ grass run function simplesit:lay
 #execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ air run function simplesit:lay
 #####################
@@ -302,5 +300,3 @@ execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ black_wall_
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ lantern run function simplesit:lay
 execute as @a at @a if score @s SimpleLay matches 1.. if block ~ ~ ~ soul_lantern run function simplesit:lay
 #####################
-execute as @a at @s if score @s simplesneak matches 1.. run scoreboard players set @s SimpleLay 0
-execute as @a at @s if score @s simplesneak matches 1.. run scoreboard players set @s simplesneak 0

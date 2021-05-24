@@ -1,1 +1,1 @@
-setblock ~ ~1 ~ minecraft:barrier keep
+setblock ~ ~1.635 ~ minecraft:barrier keep

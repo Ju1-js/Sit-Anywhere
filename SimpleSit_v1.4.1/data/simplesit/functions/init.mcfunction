@@ -4,9 +4,6 @@ team modify simplesit collisionRule never
 scoreboard objectives add simplesneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add simplelay dummy
 
-#scoreboard objectives add simplesit.sit trigger
-#scoreboard objectives add simplesit.lay trigger
-
 scoreboard objectives add SimpleSit trigger
 scoreboard objectives add SimpleLay trigger
 scoreboard objectives add SimpleLayMsg trigger
