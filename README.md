@@ -13,7 +13,7 @@ Just unzip the archive in your datapack folder.
 
 ✅ Carefully coded to prevent conflicts with other datapacks/mods.
 
-![Camp Fire Scene](/Images/logo.png)
+![Camp Fire Scene](/Images/2021-05-24_16.53.27.png)
 
 ![GitHub Logo](/Images/logo.png)
 
