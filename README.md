@@ -15,6 +15,6 @@ Just unzip the archive in your datapack folder.
 
 ![Camp Fire Scene](/Images/2021-05-24_16.53.27.png)
 
-![GitHub Logo](/Images/logo.png)
+![Siting Example](/Images/2021-05-24_16.54.03.png)
 
 ![GitHub Logo](/Images/logo.png)
