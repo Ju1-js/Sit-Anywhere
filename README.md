@@ -17,4 +17,4 @@ Just unzip the archive in your datapack folder.
 
 ![Siting Example](/Images/2021-05-24_16.54.03.png)
 
-![GitHub Logo](/Images/logo.png)
+![Laying Down Example](/Images/2021-05-24_16.56.22.png)
