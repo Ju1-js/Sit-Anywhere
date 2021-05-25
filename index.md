@@ -1,6 +1,6 @@
 # Sit Anywhere
 Simple Minecraft Datapack For Sitting Anywhere.
-Just unzip the archive in your datapack folder.
+Just move the archive inti your datapack folder.
 [Download](https://github.com/Ju1-js/Sit-Anywhere/releases/latest)
 
 ✅ Sit on most blocks in the game.
