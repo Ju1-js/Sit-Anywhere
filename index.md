@@ -12,3 +12,9 @@ Just unzip the archive in your datapack folder.
 ✅ Works in both singleplayer and multiplayer worlds.
 
 ✅ Carefully coded to prevent conflicts with other datapacks/mods.
+
+![Camp Fire Scene](/Images/2021-05-24_16.53.27.png)
+
+![Siting Example](/Images/2021-05-24_16.54.03.png)
+
+![Laying Down Example](/Images/2021-05-24_16.56.22.png)
